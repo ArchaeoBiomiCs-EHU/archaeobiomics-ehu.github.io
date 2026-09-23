@@ -1,59 +1,61 @@
-# ArchaeoBiomiCs · primera versión
+# ArchaeoBiomiCs EHU
 
-Web estática con ocho páginas, preparada para GitHub Pages. Esta versión contiene ejemplos claramente indicados y aún no se ha publicado.
+Sitio web del grupo de investigación ArchaeoBiomiCs de la Universidad del País Vasco / Euskal Herriko Unibertsitatea (EHU).
 
-## Ver la web
+La web está publicada en:
 
-Abre `index.html` en un navegador. También puede servirse esta carpeta con cualquier servidor estático. No requiere instalación ni compilación.
+https://archaeobiomics-ehu.org/
 
-## Cambiar contenidos
+## Contenido
 
 - `index.html`: portada y publicaciones seleccionadas.
-- `research.html`: las dos líneas de investigación.
-- `team.html`: siete miembros del grupo con sus fotografías y cargos.
-- `publications.html`: referencias de ejemplo; incluye búsqueda y filtro.
-- `projects.html`: proyectos de ejemplo.
-- `news.html`: noticias de ejemplo.
-- `contact.html`: dirección de Lascaray y correo inigo.olalde@ehu.eus.
-- `teaching.html`: docencia en el Master of Forensic Analysis, con enlace oficial.
-- `assets/style.css`: colores, tipografías y distribución.
-- `assets/main.js`: menú móvil y filtros de publicaciones.
+- `team.html`: miembros del grupo.
+- `research.html`: líneas de investigación.
+- `publications.html`: publicaciones científicas con búsqueda y filtros.
+- `projects.html`: proyectos de investigación.
+- `news.html`: noticias, congresos y actividades de divulgación.
+- `teaching.html`: información sobre docencia.
+- `contact.html`: dirección y datos de contacto.
+- `404.html`: página de error personalizada.
+- `assets/`: imágenes, logotipos, estilos y JavaScript.
+- `robots.txt`: instrucciones para los buscadores.
+- `sitemap.xml`: listado de páginas para su indexación.
 
-Cada página contiene su propia cabecera y pie para funcionar incluso sin JavaScript. Si cambias los enlaces del menú, hazlo en todas las páginas, incluida `404.html`. Las publicaciones de portada se editan también en `index.html`.
+## Publicación
 
-Las tipografías se solicitan a Google Fonts; si no están disponibles, se usan fuentes locales. No hay analítica ni formulario de recogida de datos. La ilustración SVG es un diseño abstracto original, no una fotografía del laboratorio. El logo se ha extraído como vector de la primera página en color del PDF aportado por el usuario. El original se mantiene intacto. La cabecera usa el símbolo junto al nombre y el pie incluye el logo completo.
+La web es estática y está alojada mediante GitHub Pages.
 
-## Antes de publicar la versión definitiva
+GitHub Pages publica el contenido de la rama `main`, desde la carpeta raíz del repositorio. El dominio personalizado es `archaeobiomics-ehu.org` y las conexiones se sirven mediante HTTPS.
 
-1. Sustituir los ejemplos de publicaciones, proyectos y noticias.
-2. Revisar la dirección y correo ya incorporados, y completar los detalles de docencia.
-3. Incorporar el logo institucional y fotografías aprobadas. El logo del grupo ya está integrado.
-4. Retirar los avisos de ejemplo, la etiqueta `noindex,nofollow` de cada HTML y el bloqueo de `robots.txt` cuando esté lista para indexación.
-5. Revisar la portada y las páginas internas.
+No requiere instalación, compilación ni dependencias externas.
 
-## Publicación en GitHub Pages
+## Actualización de contenidos
 
-La configuración descrita en el chat publica desde `main`, carpeta raíz. Los archivos contenidos en esta carpeta deben colocarse en la raíz del repositorio que sirve `https://archaeobiomics-ehu.github.io/`, no dentro de una subcarpeta `website`. Mantener `.nojekyll` y `assets/` junto a `index.html`. No se ha cambiado el repositorio remoto ni la web pública.
+Los contenidos se modifican directamente en los archivos HTML correspondientes. La cabecera y el pie están incluidos en cada página, por lo que cualquier cambio en el menú de navegación debe aplicarse también al resto de páginas, incluida `404.html`.
 
-## Decisiones recuperadas del chat «web ArchaeoBiomiCs»
+Las publicaciones destacadas de la portada se editan en `index.html`, independientemente del listado completo de `publications.html`.
 
-- GitHub Pages como alojamiento; dominio propio más adelante.
-- HTML y CSS sencillos para facilitar futuras actualizaciones.
-- Home, Research, Team, Publications, Projects, News y Contact.
-- Inglés inicial; otros idiomas en una fase posterior.
-- Dos líneas con igual protagonismo: Archaeogenetics y Forensic genetics & historical memory.
-- Estructura institucional inspirada en EvoAdapta, con diseño propio.
-- Presentación respetuosa de la identificación de víctimas de la Guerra Civil española.
-- Contenido genérico autorizado durante esta tarea para revisar primero el diseño.
+## Indexación
 
-## Actualización de identidad, contacto y Teaching
+La web permite la indexación por buscadores y dispone de:
 
-Paleta aplicada: azul marino `#0D294D`, azul `#1F5FAE` y oliva `#6B7F3A` extraídos de los valores RGB de los trazados originales; fondo marfil `#F8F7F2`, con fondos oliva y azul muy claros.
+- etiquetas canónicas con el dominio definitivo;
+- archivo `robots.txt`;
+- archivo `sitemap.xml`;
+- propiedad de dominio verificada en Google Search Console;
+- sitemap enviado a Google Search Console.
 
-La portada utiliza «Tracing human lives through DNA. Restoring identities.» y el subtítulo neutro solicitado. Se conserva la referencia a la Guerra Civil en las líneas de investigación.
+La página `404.html` conserva la directiva `noindex`, ya que no debe aparecer en los resultados de búsqueda.
 
-Teaching incorpora una introducción y datos generales verificados en https://www.ehu.eus/es/web/master/master-analisis-forense el 18 de septiembre de 2026. Asignaturas concretas impartidas por el grupo, profesorado y temas de TFM quedan pendientes.
+## Diseño
 
-## Editor visual local
+La web utiliza HTML, CSS y JavaScript sin frameworks para facilitar su mantenimiento.
 
-La vista previa incluye un botón «Editar página» para editar textos y ocultar apartados. Consulta `EDITING.md`. El guardado es local al navegador; los archivos de este proyecto no se modifican automáticamente. El editor permite guardar/recuperar una copia JSON y exportar una web completa en ZIP sin controles de edición.
+La identidad visual emplea como colores principales:
+
+- azul marino: `#0D294D`;
+- azul: `#1F5FAE`;
+- oliva: `#6B7F3A`;
+- fondo marfil: `#F8F7F2`.
+
+La web no incorpora analítica ni formularios de recogida de datos.
