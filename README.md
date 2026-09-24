@@ -8,7 +8,8 @@ https://archaeobiomics-ehu.org/
 
 ## Contenido
 
-- `index.html`: portada y publicaciones seleccionadas.
+- `index.html`: portada y publicaciones seleccionadas en inglés.
+- `es/`: versión completa en castellano con las mismas páginas y contenidos.
 - `team.html`: miembros del grupo.
 - `research.html`: líneas de investigación.
 - `publications.html`: publicaciones científicas con búsqueda y filtros.
@@ -19,7 +20,7 @@ https://archaeobiomics-ehu.org/
 - `404.html`: página de error personalizada.
 - `assets/`: imágenes, logotipos, estilos y JavaScript.
 - `robots.txt`: instrucciones para los buscadores.
-- `sitemap.xml`: listado de páginas para su indexación.
+- `sitemap.xml`: listado de páginas inglesas y castellanas para su indexación.
 
 ## Publicación
 
@@ -59,3 +60,4 @@ La identidad visual emplea como colores principales:
 - fondo marfil: `#F8F7F2`.
 
 La web no incorpora analítica ni formularios de recogida de datos.
+

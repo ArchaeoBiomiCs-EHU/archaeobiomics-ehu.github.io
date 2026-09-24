@@ -259,3 +259,12 @@ details.research-accordion .accordion-content > :first-child{margin-top:0}
     padding-bottom:36px;
   }
 }
+
+
+/* Language selector */
+.language-switcher{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.language-switcher a{color:#edf2f8;text-decoration:none;font-weight:600;letter-spacing:.08em}
+.language-switcher a[aria-current=true]{text-decoration:underline;text-underline-offset:3px}
+.language-switcher a:hover{color:#fff}
+@media(max-width:800px){.topline .wrap>.language-switcher{display:flex!important}}
+

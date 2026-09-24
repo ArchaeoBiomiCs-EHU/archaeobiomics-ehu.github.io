@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://archaeobiomics-ehu.org/</loc><lastmod>2026-09-23</lastmod></url>
-  <url><loc>https://archaeobiomics-ehu.org/team.html</loc><lastmod>2026-09-23</lastmod></url>
-  <url><loc>https://archaeobiomics-ehu.org/research.html</loc><lastmod>2026-09-23</lastmod></url>
-  <url><loc>https://archaeobiomics-ehu.org/publications.html</loc><lastmod>2026-09-23</lastmod></url>
-  <url><loc>https://archaeobiomics-ehu.org/projects.html</loc><lastmod>2026-09-23</lastmod></url>
-  <url><loc>https://archaeobiomics-ehu.org/news.html</loc><lastmod>2026-09-23</lastmod></url>
-  <url><loc>https://archaeobiomics-ehu.org/teaching.html</loc><lastmod>2026-09-23</lastmod></url>
-  <url><loc>https://archaeobiomics-ehu.org/contact.html</loc><lastmod>2026-09-23</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://archaeobiomics-ehu.org/</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/"/><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/es/</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/"/><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/team.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/team.html"/><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/team.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/es/team.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/team.html"/><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/team.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/research.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/research.html"/><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/research.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/es/research.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/research.html"/><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/research.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/publications.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/publications.html"/><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/publications.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/es/publications.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/publications.html"/><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/publications.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/projects.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/projects.html"/><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/projects.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/es/projects.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/projects.html"/><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/projects.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/news.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/news.html"/><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/news.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/es/news.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/news.html"/><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/news.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/teaching.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/teaching.html"/><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/teaching.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/es/teaching.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/teaching.html"/><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/teaching.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/contact.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/contact.html"/><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/contact.html"/></url>
+  <url><loc>https://archaeobiomics-ehu.org/es/contact.html</loc><lastmod>2026-09-24</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://archaeobiomics-ehu.org/es/contact.html"/><xhtml:link rel="alternate" hreflang="en" href="https://archaeobiomics-ehu.org/contact.html"/></url>
 </urlset>
+

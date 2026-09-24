@@ -19,7 +19,8 @@ function filterPublications() {
     const match = item.textContent.toLowerCase().includes(search.value.toLowerCase().trim()) && (!year.value || item.dataset.year === year.value);
     item.hidden = !match; if (match) count++;
   });
-  document.querySelector('#result-count').textContent = `${count} publication${count === 1 ? '' : 's'}`;
+  const resultLabel = document.documentElement.lang === 'es' ? (count === 1 ? 'publicación' : 'publicaciones') : `publication${count === 1 ? '' : 's'}`;
+  document.querySelector('#result-count').textContent = `${count} ${resultLabel}`;
   document.querySelector('#no-results').hidden = count !== 0;
 }
 search?.addEventListener('input', filterPublications);
@@ -62,3 +63,4 @@ if (photoCarousel) {
   showSlide(0);
   restartTimer();
 }
+
