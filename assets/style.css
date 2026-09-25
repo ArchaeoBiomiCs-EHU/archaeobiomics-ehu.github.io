@@ -268,3 +268,7 @@ details.research-accordion .accordion-content > :first-child{margin-top:0}
 .language-switcher a:hover{color:#fff}
 @media(max-width:800px){.topline .wrap>.language-switcher{display:flex!important}}
 
+
+/* Compact navigation icon with a comfortable touch target. */
+.menu-toggle{min-width:44px;min-height:44px}
+.menu-toggle svg{display:block;margin:auto}
