@@ -272,3 +272,9 @@ details.research-accordion .accordion-content > :first-child{margin-top:0}
 /* Compact navigation icon with a comfortable touch target. */
 .menu-toggle{min-width:44px;min-height:44px}
 .menu-toggle svg{display:block;margin:auto}
+
+/* Science Week: show both workshop photographs without cropping. */
+.outreach-card-science-week{grid-column:1/-1}
+.outreach-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:10px 0 22px;align-items:start}
+.outreach-gallery img{display:block;width:100%;height:auto;border-radius:2px}
+@media(max-width:800px){.outreach-gallery{grid-template-columns:1fr;gap:18px}}
