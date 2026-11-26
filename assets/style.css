@@ -278,3 +278,9 @@ details.research-accordion .accordion-content > :first-child{margin-top:0}
 .outreach-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:10px 0 22px;align-items:start}
 .outreach-gallery img{display:block;width:100%;height:auto;border-radius:2px}
 @media(max-width:800px){.outreach-gallery{grid-template-columns:1fr;gap:18px}}
+
+/* Cell cover: preserve the complete artwork alongside its description. */
+.outreach-card-cover{grid-column:1/-1}
+.outreach-cover-layout{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:32px;align-items:start}
+.outreach-cover-layout h3{font-size:24px;margin:0 0 18px}
+@media(max-width:800px){.outreach-cover-layout{grid-template-columns:1fr;gap:24px}.outreach-cover-layout figure{width:100%;max-width:380px;margin-inline:auto}}
